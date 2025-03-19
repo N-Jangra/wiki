@@ -56,17 +56,17 @@ root@hostname:~# dd if=filename.iso of=/dev/sdX bs=1M && sync
 
 1) start your vm (virtual machine). 
 <p align='center' width='100%'>
-    <img width='100%' src="./img/devuan/28.png" />
+    <img width='50%' src="./img/devuan/28.png" />
 </p>
 
 2) select machine from the top bar and select new.
 <p align='center' width='100%'>
-    <img width='100%' src="./img/devuan/29.png" />
+    <img width='50%' src="./img/devuan/29.png" />
 </p>
 
 3) enter your necessary details like name of vm, folder where to install, location of iso image, type & version of OS.
 <p align='center' width='100%'>
-    <img width='100%' src="./img/devuan/30.png" />
+    <img width='50%' src="./img/devuan/30.png" />
 </p>
 
 4) config the base memory & processors used for your OS.
