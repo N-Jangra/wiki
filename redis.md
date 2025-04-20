@@ -18,10 +18,10 @@
             sudo apt search redis
 
      <p align='center' width='100%'>
-        <img width='50%' src="./img/redis/3.png" />
+        <img width='40%' src="./img/redis/3.png" />
     </p>
      <p align='center' width='100%'>
-        <img width='70%' src="./img/redis/4.png" />
+        <img width='100%' src="./img/redis/4.png" />
     </p>
 
     Here, we got response as redis is available in our apt package.
