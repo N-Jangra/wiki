@@ -1,12 +1,13 @@
-
+#
 <p align='center' width='100%'>
     <img width='50%' src="./img/devuan/logo.png" />
 </p>
 
+#
 # Devuan Daedalus Install Guide
 
 This is an easy to follow guide to installing Devuan from the CD/DVD images for supported hardware. The general advice accompanying this guide is to always backup all data before beginning.
-
+#
 ## Prerequisites
 
 As a minimum, knowledge of how to write an ISO image to CD/DVD or USB and make the computer boot from it.
@@ -19,6 +20,7 @@ or, a working virtual machine to setup your OS:
 
 +   [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 
+#
 ## Installation images
 
 These are currently the ways of getting installation images. Please use mirrors or torrents where possible.
@@ -29,7 +31,7 @@ Directly from the :
 + Via [torrent](https://files.devuan.org/devuan_daedalus.torrent) for the stable releases
 
 
-
+#
 ## Choose from the following installation options:
 
     The *_netinstall.iso (~480 MB) installs a minimal base system then downloads additional packages from the Devuan repositories during the installation process.
@@ -44,6 +46,7 @@ Directly from the :
 
 #### Please note that the graphical install option is no longer available due to size constraints.
 
+#
 ## Writing an image to a CD/DVD or USB drive
 
 Images can be written to a CD or DVD using wodim or any other applications like Etcher, Ventoy for linux or Rufus for windows.
@@ -52,6 +55,7 @@ Images can be written to a CD or DVD using wodim or any other applications like 
 
 root@hostname:~# dd if=filename.iso of=/dev/sdX bs=1M && sync
 
+#
 ## Setting up a vm (optional)
 
 1) start your vm (virtual machine). 
@@ -89,6 +93,7 @@ root@hostname:~# dd if=filename.iso of=/dev/sdX bs=1M && sync
     <img width='50%' src="./img/devuan/34.png" />
 </p>
 
+#
 ## Installing Devuan
 
 The Devuan Daedalus installer presents itself via Console framebuffer dialog options only because there is no longer a GUI installer available. process carefully, step by step.
@@ -260,3 +265,5 @@ In this example /dev/sda is the only hard disk so we will install it there.
 <p align='center' width='100%'>
     <img width='50%' src="./img/devuan/27.png" />
 </p>
+
+#
